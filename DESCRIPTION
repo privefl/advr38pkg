@@ -1,13 +1,23 @@
+Encoding: UTF-8
 Package: advr38pkg
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
-Version: 1.0
+Title: Advanced R Course
+Version: 0.0.0.9000
 Date: 2018-02-09
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one
-        or more full sentences.
+Authors@R: c(
+  person("Florian", "Privé", 
+         email = "florian.prive.21@gmail.com", 
+         role = c("aut", "cre")))
+Description: Associated R package with the materials for the Advanced R course 
+    for the doctoral school of Grenoble, France.
 License: GPL (>= 2)
-Depends: R (>= 3.4), tidyverse (>= 1.2)
+Language: en-US
+LazyData: TRUE
+ByteCompile: TRUE
+Depends: R (>= 3.3), tidyverse (>= 1.2)
 Imports: Rcpp (>= 0.12)
 LinkingTo: Rcpp
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
+URL: https://privefl.github.io/advr38pkg
+BugReports: https://github.com/privefl/advr38pkg/issues
