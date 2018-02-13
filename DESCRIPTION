@@ -15,7 +15,9 @@ Language: en-US
 LazyData: TRUE
 ByteCompile: TRUE
 Depends: R (>= 3.3), tidyverse (>= 1.2)
-Imports: Rcpp (>= 0.12)
+Imports: 
+  gtools,
+  Rcpp (>= 0.12)
 LinkingTo: Rcpp
 RoxygenNote: 6.0.1
 Roxygen: list(markdown = TRUE)
