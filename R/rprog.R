@@ -18,3 +18,24 @@ split_ind <- function(ind, K) {
 }
 
 ################################################################################
+
+#' Get the sums of blocks
+#' 
+#' Get the sums of blocks of `n` elements of a vector `x`.
+#'
+#' @param x Numeric vector.
+#' @param n Positive number as the size of the blocks.
+#'
+#' @return The sums of each block.
+#' @export
+#'
+#' @examples
+#' sum_every(1:10, 2)
+#' sum_every(1:10, 5)
+sum_every <- function(x, n) {
+  if (mod <- length(x) %% n) x <- c(x, rep(0, n - mod))
+  dim(x) <- c(n, length(x) / n)
+  colSums(x)
+}
+
+################################################################################

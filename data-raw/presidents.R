@@ -73,6 +73,12 @@ y <- sapply(1:45, function(i) {
   x[ind]
 })
 
-presidents <- data.frame(first = y[1, ], last = y[2, ])
+presidents <- data.frame(first = y[1, ], last = y[2, ],
+                         stringsAsFactors = FALSE)
+presidents[6, ] <- c("John Quincy", "Adams")
+presidents[8, 2] <- c("Van Buren")
+presidents[9, ] <- c("William Henry", "Harrison")
+presidents[27, ] <- c("William Howard", "Taft")
+presidents
 
-usethis::use_data(presidents)
+usethis::use_data(presidents, overwrite = TRUE)
