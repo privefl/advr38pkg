@@ -16,6 +16,7 @@ LazyData: TRUE
 ByteCompile: TRUE
 Depends: R (>= 3.3), tidyverse (>= 1.2)
 Imports: 
+  glue,
   gtools,
   Rcpp (>= 0.12)
 LinkingTo: Rcpp
