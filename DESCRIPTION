@@ -16,8 +16,10 @@ LazyData: TRUE
 ByteCompile: TRUE
 Depends: R (>= 3.3), tidyverse (>= 1.2)
 Imports: 
+  data.table,
   glue,
   gtools,
+  matrixStats,
   Rcpp (>= 0.12)
 LinkingTo: Rcpp
 RoxygenNote: 6.0.1
