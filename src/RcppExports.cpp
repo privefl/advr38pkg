@@ -5,19 +5,20 @@
 
 using namespace Rcpp;
 
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP _advr38pkg_rcpp_hello_world() {
+// random_walk_neg_prop
+double random_walk_neg_prop(double N);
+RcppExport SEXP _advr38pkg_random_walk_neg_prop(SEXP NSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(rcpp_hello_world());
+    Rcpp::traits::input_parameter< double >::type N(NSEXP);
+    rcpp_result_gen = Rcpp::wrap(random_walk_neg_prop(N));
     return rcpp_result_gen;
 END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_advr38pkg_rcpp_hello_world", (DL_FUNC) &_advr38pkg_rcpp_hello_world, 0},
+    {"_advr38pkg_random_walk_neg_prop", (DL_FUNC) &_advr38pkg_random_walk_neg_prop, 1},
     {NULL, NULL, 0}
 };
 

@@ -24,6 +24,7 @@ https
 io
 knitr
 Kross
+matrixStats
 monte
 Noam
 NoDerivs
@@ -36,6 +37,9 @@ Privé
 privefl
 readr
 repo
+Rcpp
+RcppArmadillo
+RcppEigen
 Rprofile
 RStudio
 Rundel
