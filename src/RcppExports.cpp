@@ -5,6 +5,18 @@
 
 using namespace Rcpp;
 
+// count_between
+IntegerVector count_between(const NumericVector& x, const NumericVector& breaks);
+RcppExport SEXP _advr38pkg_count_between(SEXP xSEXP, SEXP breaksSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const NumericVector& >::type x(xSEXP);
+    Rcpp::traits::input_parameter< const NumericVector& >::type breaks(breaksSEXP);
+    rcpp_result_gen = Rcpp::wrap(count_between(x, breaks));
+    return rcpp_result_gen;
+END_RCPP
+}
 // random_walk_neg_prop
 double random_walk_neg_prop(double N);
 RcppExport SEXP _advr38pkg_random_walk_neg_prop(SEXP NSEXP) {
@@ -18,6 +30,7 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
+    {"_advr38pkg_count_between", (DL_FUNC) &_advr38pkg_count_between, 2},
     {"_advr38pkg_random_walk_neg_prop", (DL_FUNC) &_advr38pkg_random_walk_neg_prop, 1},
     {NULL, NULL, 0}
 };

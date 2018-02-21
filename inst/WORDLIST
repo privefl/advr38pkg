@@ -13,6 +13,7 @@ Ctrl
 documentclass
 dx
 else's
+exos
 Florian
 github
 Gatto
@@ -29,6 +30,7 @@ monte
 Noam
 NoDerivs
 NonCommercial
+parallelize
 Peng
 pkgdown
 png
@@ -36,6 +38,7 @@ pre
 Privé
 privefl
 readr
+recode
 repo
 Rcpp
 RcppArmadillo
@@ -55,6 +58,7 @@ uncomment
 useR
 vectorization
 vectorized
+vectorizing
 Wickham
 Wickham's
 WIP

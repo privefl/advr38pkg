@@ -13,7 +13,7 @@ Description: Associated R package with the materials for the Advanced R course
 License: GPL (>= 2)
 Language: en-US
 LazyData: TRUE
-ByteCompile: TRUE
+ByteCompile: FALSE
 Depends: R (>= 3.3), tidyverse (>= 1.2)
 Imports: 
   data.table,
