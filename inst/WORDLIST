@@ -1,6 +1,8 @@
+à
 addins
 advr
 apalike
+au
 biblio
 Bitbucket
 blogdown
@@ -13,8 +15,10 @@ Ctrl
 documentclass
 dx
 else's
+et
 exos
 Florian
+ggplot
 github
 Gatto
 GitLab
@@ -25,6 +29,7 @@ https
 io
 knitr
 Kross
+lapply
 matrixStats
 monte
 Noam
@@ -34,6 +39,7 @@ parallelize
 Peng
 pkgdown
 png
+purrr
 pre
 Privé
 privefl
@@ -49,6 +55,7 @@ Rundel
 ShareAlike
 Stojnic
 styler
+tibble
 tidyquant
 tidytext
 tidytime
