@@ -16,6 +16,7 @@ LazyData: TRUE
 ByteCompile: FALSE
 Depends: R (>= 3.3), tidyverse (>= 1.2)
 Imports: 
+  covr,
   data.table,
   gapminder,
   glue,
@@ -27,6 +28,9 @@ Imports:
   primefactr,
   Rcpp (>= 0.12),
   rmarkdown,
+  spelling,
+  testthat,
+  usethis,
   viridis
 LinkingTo: Rcpp
 RoxygenNote: 6.0.1
