@@ -22,6 +22,7 @@ Imports:
   gtools,
   Lahman,
   matrixStats,
+  microbenchmark,
   nycflights13,
   primefactr,
   Rcpp (>= 0.12),
