@@ -50,6 +50,7 @@ repo
 Rcpp
 RcppArmadillo
 RcppEigen
+roxygen
 Roxygen
 Rprofile
 RStudio
