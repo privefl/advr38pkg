@@ -50,6 +50,7 @@ repo
 Rcpp
 RcppArmadillo
 RcppEigen
+Roxygen
 Rprofile
 RStudio
 Rundel
