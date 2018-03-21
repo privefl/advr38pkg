@@ -21,6 +21,7 @@ exos
 Florian
 ggplot
 github
+gitignore
 Gatto
 GitLab
 Grolemund
@@ -31,7 +32,9 @@ io
 knitr
 Kross
 lapply
+magrittr
 matrixStats
+minidplyr
 monte
 Noam
 NoDerivs
@@ -44,14 +47,14 @@ purrr
 pre
 Privé
 privefl
-readr
-recode
-repo
+Rbuildignore
 Rcpp
 RcppArmadillo
 RcppEigen
+readr
+recode
+repo
 roxygen
-Roxygen
 Rprofile
 RStudio
 Rundel
@@ -67,6 +70,7 @@ tidyverse
 UGA
 uncomment
 useR
+usethis
 vectorization
 vectorized
 vectorizing
