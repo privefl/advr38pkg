@@ -2,6 +2,7 @@
 addins
 advr
 apalike
+AppVeyor
 au
 biblio
 Bitbucket
@@ -10,6 +11,7 @@ bookdown
 carlo
 centric
 Cetinkaya
+covr
 cpp
 Ctrl
 documentclass
@@ -51,6 +53,7 @@ Rbuildignore
 Rcpp
 RcppArmadillo
 RcppEigen
+README
 readr
 recode
 repo
