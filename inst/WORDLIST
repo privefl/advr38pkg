@@ -5,6 +5,7 @@ apalike
 AppVeyor
 au
 biblio
+bigstatsr
 Bitbucket
 blogdown
 bookdown
@@ -82,3 +83,4 @@ Wickham
 Wickham's
 WIP
 xie
+YAML
