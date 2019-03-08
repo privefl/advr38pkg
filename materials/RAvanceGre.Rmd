@@ -1,0 +1,51 @@
+---
+title: "R avancé (2018)"
+output:
+  pdf_document: default
+---
+
+## Objectif
+
+Il est impossible de devenir expert en R avec une seule formation.
+Cependant, ce cours a pour objectif de vous donner un bon niveau de compréhension sur de nombreux aspects du langage R. 
+Des ressources supplémentaires seront données pour vous laisser approfondir les connaissances acquises pendant ce cours.
+
+## Public visé
+
+La formation est proposée sous une double étiquette Collège doctoral/MaiMoSiNE (Maison de la Modélisation et de la Simulation) avec une priorité d'accès aux étudiants du collège doctoral de Grenoble. 
+
+Une connaissance de base de R est requise. Un module "Introduction à R" devrait être proposé avant celui-ci. 
+
+Le choix des participants se fait sur la base de la description des motivations des inscrits, elles nous permettent d'évaluer la cohérence entre ces motivations et les objectifs de la formation. Il est donc conseillé de lire soigneusement ces objectifs et de décrire vos motivations de façon précise.
+
+## Contenu de la formation
+
+Ce cours se composera de **10 séances de 3h** les mardis et jeudis matins de 9h à 12h du 27 février au 29 mars 2018 inclus. 
+
+Il consistera en un enchainement de cours et d'exercices dirigés (let's code!). 
+L'utilisation de RStudio sera plus que recommandée.
+
+1. Programmation avec R (2 séances): 
+    - Structures de données et leurs accesseurs
+    - Vocabulaire R et fonctions de base utiles
+    - Fonctions et "scoping"
+    - Objets et méthodes
+
+2. Analyse de données avec R (3 séances)
+    
+```{r, fig.align='center', out.width="55%", echo=FALSE}
+knitr::include_graphics("R4DS-pipeline.png")
+```
+
+3. Optimisation de code R (2 séances)
+    - Vectorisation
+    - Rcpp
+    - Calcul matriciel
+    - Parallelisation
+
+4. Développer un package R (2 séances)
+    - Commencer un package
+    - Documenter un package
+    - Tester un package et le déployer (sur GitHub et CRAN)
+
+5. Partie bonus: Shiny? (1 séance)

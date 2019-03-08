@@ -1,4 +1,7 @@
+^tmp-code$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^package\.md$
 ^data-raw$
+^materials$
+^\.httr-oauth$
