@@ -25,15 +25,18 @@ Imports:
   matrixStats,
   microbenchmark,
   nycflights13,
+  pkgdown,
   primefactr,
+  profvis,
   Rcpp (>= 0.12),
   rmarkdown,
+  roxygen2,
   spelling,
   testthat,
   usethis,
   viridis
 LinkingTo: Rcpp
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 6.1.0
 Roxygen: list(markdown = TRUE)
 URL: https://privefl.github.io/advr38pkg
 BugReports: https://github.com/privefl/advr38pkg/issues
