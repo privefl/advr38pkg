@@ -14,11 +14,13 @@ License: GPL (>= 2)
 Language: en-US
 LazyData: TRUE
 ByteCompile: FALSE
-Depends: R (>= 3.3), tidyverse (>= 1.2)
+Depends: R (>= 3.3)
 Imports: 
   covr,
   data.table,
+  dplyr,
   gapminder,
+  ggplot2,
   glue,
   gtools,
   Lahman,
@@ -33,6 +35,7 @@ Imports:
   roxygen2,
   spelling,
   testthat,
+  tidyr,
   usethis,
   viridis
 LinkingTo: Rcpp
