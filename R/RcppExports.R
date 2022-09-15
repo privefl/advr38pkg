@@ -2,7 +2,7 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 count_between <- function(x, breaks) {
-    .Call('_advr38pkg_count_between', PACKAGE = 'advr38pkg', x, breaks)
+    .Call(`_advr38pkg_count_between`, x, breaks)
 }
 
 #' Random Walk
@@ -19,6 +19,6 @@ count_between <- function(x, breaks) {
 #' @export
 #'
 random_walk_neg_prop <- function(N) {
-    .Call('_advr38pkg_random_walk_neg_prop', PACKAGE = 'advr38pkg', N)
+    .Call(`_advr38pkg_random_walk_neg_prop`, N)
 }
 

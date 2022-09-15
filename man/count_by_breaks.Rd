@@ -4,12 +4,14 @@
 \alias{count_by_breaks}
 \title{Count number of values between breaks}
 \usage{
-count_by_breaks(x, breaks)
+count_by_breaks(x, breaks, use_outer = FALSE)
 }
 \arguments{
 \item{x}{A vector.}
 
 \item{breaks}{A vector of breaks (should be sorted).}
+
+\item{use_outer}{Whether to use \code{\link[=outer]{outer()}} or \code{\link[=sapply]{sapply()}} (the default).}
 }
 \value{
 A vector of counts corresponding of the number of values of x that
