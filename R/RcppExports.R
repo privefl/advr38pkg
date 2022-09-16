@@ -12,10 +12,9 @@ count_between <- function(x, breaks) {
 #' @param N Size of the walk.
 #'
 #' @examples
-#' set.seet(1)
+#' set.seed(1)
 #' random_walk_neg_prop(1e6)
 #'
-#' @useDynLib advr38pkg
 #' @export
 #'
 random_walk_neg_prop <- function(N) {

@@ -8,7 +8,6 @@ IntegerVector count_between(const NumericVector& x,
   
   int K = breaks.length();
   IntegerVector counts(K);
-  int c;
   
   NumericVector::const_iterator it = x.begin();
   double b = breaks[0];
@@ -16,7 +15,7 @@ IntegerVector count_between(const NumericVector& x,
   
   for (int k = 1; k < K; k++) {
     b = breaks[k];
-    c = 0;
+    int c = 0;
     while (*it <= b && it != x.end()) {
       c++;
       it++;

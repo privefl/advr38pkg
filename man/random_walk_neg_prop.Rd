@@ -13,7 +13,7 @@ random_walk_neg_prop(N)
 Negative proportion of a Gaussian random walk.
 }
 \examples{
-set.seet(1)
+set.seed(1)
 random_walk_neg_prop(1e6)
 
 }

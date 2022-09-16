@@ -2,19 +2,17 @@ Encoding: UTF-8
 Package: advr38pkg
 Type: Package
 Title: Advanced R Course
-Version: 0.0.0.9000
-Date: 2018-02-09
+Version: 0.0.2
 Authors@R: c(
   person("Florian", "Privé", 
          email = "florian.prive.21@gmail.com", 
          role = c("aut", "cre")))
 Description: Associated R package with the materials for the Advanced R course 
-    for the doctoral school of Grenoble, France.
+    at https://privefl.github.io/advr38book/.
 License: GPL (>= 2)
 Language: en-US
 LazyData: TRUE
-ByteCompile: FALSE
-Depends: R (>= 3.3)
+Depends: R (>= 3.4)
 Imports: 
   covr,
   data.table,
@@ -41,5 +39,4 @@ Imports:
 LinkingTo: Rcpp
 RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)
-URL: https://privefl.github.io/advr38pkg
 BugReports: https://github.com/privefl/advr38pkg/issues
