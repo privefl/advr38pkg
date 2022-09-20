@@ -31,6 +31,7 @@ Imports:
   Rcpp (>= 0.12),
   rmarkdown,
   roxygen2,
+  skimr,
   spelling,
   testthat,
   tidyr,
