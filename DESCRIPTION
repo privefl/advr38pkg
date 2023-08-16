@@ -35,8 +35,11 @@ Imports:
   spelling,
   testthat,
   tidyr,
+  tidytuesdayR,
+  tweetrmd,
   usethis,
   viridis
+Remotes: gadenbuie/tweetrmd
 LinkingTo: Rcpp
 RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)
