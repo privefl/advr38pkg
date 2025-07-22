@@ -11,7 +11,6 @@ Description: Associated R package with the materials for the Advanced R course
     at https://privefl.github.io/advr38book/.
 License: GPL (>= 2)
 Language: en-US
-LazyData: TRUE
 Depends: R (>= 3.4)
 Imports: 
   covr,
